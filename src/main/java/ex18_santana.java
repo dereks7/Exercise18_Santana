@@ -25,7 +25,7 @@ public class ex18_santana
         Scanner in1 = new Scanner(System.in);
         String choice = in1.nextLine();
 
-        if (choice.equals("C"))
+        if (choice.equals("C")||choice.equals("c"))
         {
             System.out.println("Please enter the temperature in Fahrenheit: ");
             Scanner in2 = new Scanner(System.in);
@@ -36,7 +36,7 @@ public class ex18_santana
 
             System.out.println("The temperature in Celsius is "+ Math.round(cel*100.0)/100.0 +".");
         }
-        else if (choice.equals("F"))
+        else if (choice.equals("F")||choice.equals("f"))
         {
             System.out.println("Please enter the temperature in Celsius: ");
             Scanner in2 = new Scanner(System.in);
